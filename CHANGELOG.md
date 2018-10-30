@@ -16,6 +16,7 @@
 - Garder les spectateurs dans un rayon autour du lobby
 - Empecher les personnes de se taper dans le lobby
 - Ajouter saturation sur le lobby
+- Desactiver sendCommendFeedback
 
 # 1.1.0
 *(30/10/2018) 19H15*
