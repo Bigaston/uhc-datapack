@@ -30,4 +30,6 @@ execute if score startGame info matches 1 run scoreboard objectives remove last_
 execute if score startGame info matches 1 run scoreboard objectives remove trigger_spec
 execute if score startGame info matches 1 run scoreboard objectives remove team_etat
 
+execute if score startGame info matches 1 run scoreboard players set @a Mort 0
+
 execute if score startGame info matches 1 run scoreboard players set startGame info 0
