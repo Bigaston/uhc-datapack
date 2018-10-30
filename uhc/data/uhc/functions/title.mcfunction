@@ -1,0 +1,1 @@
+execute as @a run title @p actionbar [{"text": "Kill: ", "color": "gold", "bold": true}, {"score": {"name": "@p", "objective": "Kill"}, "color": "red", "bold": true}, {"text": " - ", "color": "gold", "bold": true}, {"text": "Joueurs: ", "color": "gold", "bold": true}, {"score": {"name": "player", "objective": "info"}, "color": "red", "bold": true}]
