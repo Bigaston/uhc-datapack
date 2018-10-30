@@ -10,6 +10,7 @@
 - Ajout tête qui ont des effets
 - Ajout stuff de base
 - Ajout festin en 0.0
+- Modification du message de mort
 
 # 1.0.0
 *(30/10/2018) 16H30*
