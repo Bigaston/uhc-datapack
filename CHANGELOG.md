@@ -11,6 +11,8 @@
 - Ajout stuff de base
 - Ajout festin en 0.0
 - Modification du message de mort
+- Correction du nombre de joueur
+- Mise en spectateur automatique des personnes qui n'ont pas d'équipes/qui arrivent après le début de la partie
 
 # 1.0.0
 *(30/10/2018) 16H30*
