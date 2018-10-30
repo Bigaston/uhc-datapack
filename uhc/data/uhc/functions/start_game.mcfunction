@@ -1,10 +1,11 @@
-execute unless score startGame info matches 1 run tellraw @a [{"text":"[", "color": "red"}, {"text":"UHC", "color": "gold", "bold": "true"}, {"text":"]", "color": "red"}, {"text": " Merci de cliquer ", "color": "gold"}, {"text": "ici", "color": "red", "clickEvent": {"action": "run_command", "value": "/scoreboard players set startGame info 1"}}, {"text": " pour démarer la partie!", "color": "gold"}]
+execute unless score startGame info matches 1 run tellraw @p [{"text":"[", "color": "red"}, {"text":"UHC", "color": "gold", "bold": "true"}, {"text":"]", "color": "red"}, {"text": " Merci de cliquer ", "color": "gold"}, {"text": "ici", "color": "red", "clickEvent": {"action": "run_command", "value": "/scoreboard players set startGame info 1"}}, {"text": " pour démarer la partie!", "color": "gold"}]
 
 # Si la fonction est executee viant le scoreboard
 execute if score startGame info matches 1 run scoreboard players set inGame info 1
 execute if score startGame info matches 1 run playsound minecraft:entity.enderman.teleport master @a
-execute if score startGame info matches 1 run team remove Waiting
-execute if score startGame info matches 1 run spreadplayers 0 0 100 500 true @a[gamemode=adventure]
+execute if score startGame info matches 1 run team empty Waiting
+execute if score startGame info matches 1 run execute if score team option matches 0 run spreadplayers 0 0 100 500 false @a[gamemode=adventure]
+execute if score startGame info matches 1 run execute if score team option matches 1 run spreadplayers 0 0 100 500 true @a[gamemode=adventure]
 execute if score startGame info matches 1 run gamemode survival @a[gamemode=adventure]
 execute if score startGame info matches 1 run effect give @a minecraft:resistance 15 125 true
 execute if score startGame info matches 1 run tellraw @a [{"text":"[", "color": "red"}, {"text":"UHC", "color": "gold", "bold": "true"}, {"text":"]", "color": "red"}, {"text": " Démarage de la partie! Puisse le sort vous être favorable!", "color": "gold"}]
@@ -29,6 +30,8 @@ execute if score startGame info matches 1 run scoreboard objectives remove next_
 execute if score startGame info matches 1 run scoreboard objectives remove last_team
 execute if score startGame info matches 1 run scoreboard objectives remove trigger_spec
 execute if score startGame info matches 1 run scoreboard objectives remove team_etat
+
+execute if score startGame info matches 1 run function uhc:team/update_team_number
 
 execute if score startGame info matches 1 run scoreboard players set @a Mort 0
 

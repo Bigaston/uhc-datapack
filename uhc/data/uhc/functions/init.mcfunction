@@ -14,6 +14,7 @@ worldborder set 1000
 gamerule doDaylightCycle false
 time set 8000
 gamerule doWeatherCycle false
+weather clear
 gamerule naturalRegeneration false
 gamerule showDeathMessages false
 gamerule spectatorsGenerateChunks true
@@ -54,6 +55,8 @@ scoreboard players set inGame info 0
 scoreboard players set globalSec info 1200
 scoreboard players set maxBar info 1200
 scoreboard players set player info 0
+scoreboard players set team info 0
+scoreboard players set last_team info 0
 scoreboard players set startGame info 0
 
 # Scoreboard des options
@@ -65,8 +68,15 @@ scoreboard players set diminutionMap option 7
 # Scoreboard kill
 scoreboard objectives add Kill playerKillCount
 
+# Scoreboard Kill Detect
+scoreboard objectives add killDetect playerKillCount
+
 # Preparation des teams
 function uhc:team/init
+
+# Comptage du nombre de personne dans chaques équipes
+scoreboard objectives add number_in_team dummy
+scoreboard objectives add team dummy
 
 # Barre d'affichage du temps
 bossbar add time {"text": "episode"}
