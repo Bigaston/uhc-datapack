@@ -12,6 +12,9 @@
 - Modification du message de mort
 - Correction du nombre de joueur
 - Mise en spectateur automatique des personnes qui n'ont pas d'équipes/qui arrivent après le début de la partie
+- Empecher l'utilisation des ender eyes dans le lobby
+- Garder les spectateurs dans un rayon autour du lobby
+- Empecher les personnes de se taper dans le lobby
 
 # 1.1.0
 *(30/10/2018) 19H15*
