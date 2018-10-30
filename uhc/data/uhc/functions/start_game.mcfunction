@@ -32,4 +32,8 @@ execute if score startGame info matches 1 run scoreboard objectives remove team_
 
 execute if score startGame info matches 1 run scoreboard players set @a Mort 0
 
+execute if score startGame info matches 1 run gamerule doDaylightCycle true
+execute if score startGame info matches 1 run time set 0
+execute if score startGame info matches 1 run gamerule doWeatherCycle true
+
 execute if score startGame info matches 1 run scoreboard players set startGame info 0
