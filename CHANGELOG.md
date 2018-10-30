@@ -17,6 +17,11 @@
 - Empecher les personnes de se taper dans le lobby
 - Ajouter saturation sur le lobby
 - Desactiver sendCommendFeedback
+- Option de friendlyFire
+- Bug title team qui ne s'affiche pas correcte et pas le bon nombre de team
+- Bug playsound quand mort
+- Mettre en difficylty 3
+- Scénario Taupe Gun et Switch the Patrick
 
 # 1.1.0
 *(30/10/2018) 19H15*
