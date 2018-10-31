@@ -1,4 +1,4 @@
-replaceitem entity @a[scores={team_etat=0}] hotbar.0 minecraft:ender_eye{display:{Name:"{\"text\":\"Mode Spectateur\", \"color\":\"gray\"}"}}
+replaceitem entity @a[scores={team_etat=0}] hotbar.0 minecraft:heart_of_the_sea{display:{Name:"{\"text\":\"Mode Spectateur\", \"color\":\"gray\"}"}}
 replaceitem entity @a[scores={team_etat=0}] hotbar.1 minecraft:white_concrete{display:{Name:"{\"text\":\"Rejoindre l'équipe blanche\"}"}}
 replaceitem entity @a[scores={team_etat=0}] hotbar.2 minecraft:orange_concrete{display:{Name:"{\"text\":\"Rejoindre l'équipe orange\", \"color\":\"gold\"}"}}
 replaceitem entity @a[scores={team_etat=0}] hotbar.3 minecraft:magenta_concrete{display:{Name:"{\"text\":\"Rejoindre l'équipe magenta\", \"color\":\"dark_purple\"}"}}
@@ -16,4 +16,4 @@ replaceitem entity @a[scores={team_etat=1}] hotbar.4 minecraft:purple_concrete{d
 replaceitem entity @a[scores={team_etat=1}] hotbar.5 minecraft:blue_concrete{display:{Name:"{\"text\":\"Rejoindre l'équipe bleue foncée\", \"color\":\"dark_blue\"}"}}
 replaceitem entity @a[scores={team_etat=1}] hotbar.6 minecraft:green_concrete{display:{Name:"{\"text\":\"Rejoindre l'équipe verte foncée\", \"color\":\"dark_green\"}"}}
 replaceitem entity @a[scores={team_etat=1}] hotbar.7 minecraft:red_concrete{display:{Name:"{\"text\":\"Rejoindre l'équipe rouge\", \"color\":\"dark_red\"}"}}
-replaceitem entity @a[scores={team_etat=1}] hotbar.8 minecraft:ender_eye{display:{Name:"{\"text\":\"Mode Spectateur\", \"color\":\"gray\"}"}}
+replaceitem entity @a[scores={team_etat=1}] hotbar.8 minecraft:heart_of_the_sea{display:{Name:"{\"text\":\"Mode Spectateur\", \"color\":\"gray\"}"}}

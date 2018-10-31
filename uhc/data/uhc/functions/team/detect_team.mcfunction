@@ -21,4 +21,4 @@ function uhc:team/back_player
 
 
 execute if score team option matches 1 run function uhc:team/team_hotbar
-execute if score team option matches 0 run replaceitem entity @a hotbar.0 minecraft:ender_eye{display:{Name:"{\"text\":\"Mode Spectateur\", \"color\":\"gray\"}"}}
+execute if score team option matches 0 run replaceitem entity @a hotbar.0 minecraft:heart_of_the_sea{display:{Name:"{\"text\":\"Mode Spectateur\", \"color\":\"gray\"}"}}

@@ -18,6 +18,7 @@ weather clear
 gamerule naturalRegeneration false
 gamerule showDeathMessages false
 gamerule spectatorsGenerateChunks true
+gamerule sendCommandFeedback false
 
 # Ajout de la team d'attente
 team add Waiting
@@ -76,6 +77,7 @@ function uhc:team/init
 
 # Comptage du nombre de personne dans chaques équipes
 scoreboard objectives add number_in_team dummy
+scoreboard objectives add last_number_team dummy
 scoreboard objectives add team dummy
 
 # Barre d'affichage du temps

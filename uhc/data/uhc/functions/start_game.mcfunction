@@ -31,6 +31,8 @@ execute if score startGame info matches 1 run scoreboard objectives remove last_
 execute if score startGame info matches 1 run scoreboard objectives remove trigger_spec
 execute if score startGame info matches 1 run scoreboard objectives remove team_etat
 
+execute if score startGame info matches 1 run difficulty hard
+
 execute if score startGame info matches 1 run function uhc:team/update_team_number
 
 execute if score startGame info matches 1 run scoreboard players set @a Mort 0

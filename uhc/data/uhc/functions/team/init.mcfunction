@@ -13,7 +13,7 @@ scoreboard objectives add join_dark_blue minecraft.dropped:minecraft.blue_concre
 scoreboard objectives add join_dark_green minecraft.dropped:minecraft.green_concrete
 scoreboard objectives add join_red minecraft.dropped:minecraft.red_concrete
 
-scoreboard objectives add spec minecraft.dropped:minecraft.ender_eye
+scoreboard objectives add spec minecraft.dropped:minecraft.heart_of_the_sea
 scoreboard objectives add next_team minecraft.dropped:minecraft.white_banner
 scoreboard objectives add last_team minecraft.dropped:minecraft.black_banner
 
