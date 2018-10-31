@@ -4,6 +4,7 @@
 - Correction du nombre de joueur (si une personne quitte, le nombre de joueur est quand meme pris en compte)
 - Mise en spectateur automatique des personnes qui n'ont pas d'équipes/qui arrivent après le début de la partie
 - Bug playsound quand mort
+- Suprimer la vérification lors du `/function uhc:start_game` et le remplacer par `/function uhc:start`
 
 ## Ajout
 - Ajouter des options pour désactiver les spectateurs
