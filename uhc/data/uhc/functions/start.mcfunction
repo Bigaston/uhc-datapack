@@ -1,3 +1,4 @@
+tellraw @s [{"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}]
 scoreboard players set inGame info 1
 
 # Add player to spec
@@ -46,5 +47,10 @@ scoreboard players set @a[gamemode=survival] player_in_game 1
 gamerule doDaylightCycle true
 time set 0
 gamerule doWeatherCycle true
+
+xp set @a 0 levels
+xp set @a 0 
+
+function uhc-addon:start
 
 scoreboard players set startGame info 0

@@ -1,3 +1,4 @@
+tellraw @s [{"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}]
 gamemode spectator @a
 tp @a 0 102 0
 fill -10 100 -10 10 105 10 minecraft:barrier
@@ -96,7 +97,7 @@ bossbar set time players @a
 kill @e[name=UHC,type=minecraft:armor_stand]
 summon armor_stand 0 100.8 0 {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoGravity:1b,Small:1b,ArmorItems:[{},{},{},{id:"minecraft:sea_lantern",Count:1b}],HandItems:[{},{}],CustomName:"{\"text\":\"UHC\",\"color\":\"red\",\"bold\":\"true\"}",CustomNameVisible:1b,DisabledSlots:2035728}
 
-function uhc:config
+function uhc-addon:init
 
 # Affichage texte de fin
 tellraw @a [{"text":"[", "color": "red"}, {"text":"UHC", "color": "gold", "bold": "true"}, {"text":"]", "color": "red"}, {"text": " UHC initialisé avec succès!", "color": "gold"}]

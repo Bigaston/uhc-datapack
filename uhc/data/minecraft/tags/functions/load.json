@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-	"uhc:reload"
+	"uhc:reload",
+	"uhc-addon:reload"
 	]
 }

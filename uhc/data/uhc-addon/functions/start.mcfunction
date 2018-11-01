@@ -1,0 +1,1 @@
+execute if score cut-clean add-option matches 1 run tellraw @a [{"text":"[", "color": "red"}, {"text":"UHC Addon", "color": "gold", "bold": "true"}, {"text":"]", "color": "red"}, {"text": " Scénario Cut Clean activé! Tous les minerais et les viandes seront cuit automatiquement!", "color": "gold"}]
