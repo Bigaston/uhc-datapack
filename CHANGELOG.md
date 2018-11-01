@@ -15,6 +15,7 @@
 - Scénario Taupe Gun et Switch the Patrick
 - Modification des messages de morts pour annoncer la manière de la mort
 - Scénario des équipes sans couleurs, avec des feux d'artifices pour signaler son équipe (plugin mumble obligatoire)
+- Scénario Diamant Sanglant : chaque diamand miné = 1/2 coeur en moins
 
 # 1.4.1
 *(01/11/2018) 16H00*
