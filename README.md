@@ -11,4 +11,4 @@ Il n'est pas encore finit ni complet, il manque plusieurs choses, mais il est d√
 Executez la commande `/function uhc:config` et suivez les information du t'chat!
 
 # Lancer une partie
-Utilisez la commande `/function uhc:start_game` et suivez les instruction du t'chat!
+Utilisez la commande `/function uhc:start`
