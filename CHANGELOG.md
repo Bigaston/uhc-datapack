@@ -15,6 +15,10 @@
 - Scénario Taupe Gun et Switch the Patrick
 - Modification des messages de morts pour annoncer la manière de la mort
 
+# 1.4.1
+*(01/11/2018) 16H00*
+- Correction de bugs mineurs
+
 # 1.4.0
 *(01/11/2018) 15H00*
 - Modification différents affichages pour plus de claretée
