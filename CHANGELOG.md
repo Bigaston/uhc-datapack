@@ -1,10 +1,5 @@
 # A faire
 ## Correction
-- Modification du message de mort
-- Correction du nombre de joueur (si une personne quitte, le nombre de joueur est quand meme pris en compte)
-- Mise en spectateur automatique des personnes qui n'ont pas d'équipes/qui arrivent après le début de la partie
-- Bug playsound quand mort
-- Suprimer la vérification lors du `/function uhc:start_game` et le remplacer par `/function uhc:start`
 
 ## Ajout
 - Ajouter des options pour désactiver les spectateurs
@@ -18,6 +13,14 @@
 - Ajout succès de prise de dégat de différentes manières
 - Garder les spectateurs dans un rayon autour du lobby
 - Scénario Taupe Gun et Switch the Patrick
+- Modification des messages de morts pour annoncer la manière de la mort
+
+# 1.3.0
+*(01/11/2018) 12H30*
+- Supression la vérification lors du `/function uhc:start_game` et le remplacer par `/function uhc:start`
+- Mise a jour du nombre de joueur au début de la partie
+- Mise en spectateur automatique des personnes qui n'ont pas d'équipes/qui arrivent après le début de la partie
+- Correction des sons, ils se jouent maintenant correctement
 
 # 1.2.0
 *(31/10/2018) 23H00*
