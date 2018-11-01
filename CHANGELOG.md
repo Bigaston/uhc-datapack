@@ -6,7 +6,7 @@
 - Ajouter une option pour le jour infinit
 - Ajouter une option pour la pluie
 - Ajouter une option pour désactiver le craft custom du cuir
-- Ajouter des scénarios (CutClean, SkyHight...)
+- Ajouter des scénarios (SkyHight
 - Ajout tête qui ont des effets
 - Ajout stuff de base
 - Ajout festin en 0.0
@@ -14,6 +14,14 @@
 - Garder les spectateurs dans un rayon autour du lobby
 - Scénario Taupe Gun et Switch the Patrick
 - Modification des messages de morts pour annoncer la manière de la mort
+
+# 1.4.0
+*(01/11/2018) 15H00*
+- Modification différents affichages pour plus de claretée
+- Ajout de UHC-Addon pour les scénarios
+- Ajout de la commande `/function uhc-addon:config` pour configurer les scénarios
+- Ajout du scénario Cut Clean (tous les minerais et les viandes sont cuites automatiquement) **[Améliorable]**
+- Correction du give de la pomme **[Améliorable]**
 
 # 1.3.0
 *(01/11/2018) 12H30*
