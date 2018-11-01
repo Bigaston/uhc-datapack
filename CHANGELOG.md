@@ -14,6 +14,7 @@
 - Garder les spectateurs dans un rayon autour du lobby
 - Scénario Taupe Gun et Switch the Patrick
 - Modification des messages de morts pour annoncer la manière de la mort
+- Scénario des équipes sans couleurs, avec des feux d'artifices pour signaler son équipe (plugin mumble obligatoire)
 
 # 1.4.1
 *(01/11/2018) 16H00*
