@@ -58,7 +58,10 @@ scoreboard players set maxBar info 1200
 scoreboard players set player info 0
 scoreboard players set team info 0
 scoreboard players set last_team info 0
-scoreboard players set startGame info 0
+
+# Scoreboard des personnes dans la partie
+scoreboard objectives add player_in_game dummy
+scoreboard players reset @a player_in_game 
 
 # Scoreboard des options
 scoreboard objectives add option dummy

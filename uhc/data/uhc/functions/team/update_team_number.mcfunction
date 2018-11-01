@@ -61,7 +61,7 @@ execute if score dark_blue team matches 1 run execute if score dark_blue number_
 execute if score dark_green team matches 1 run execute if score dark_green number_in_team > min number_in_team run scoreboard players add team info 1
 execute if score red team matches 1 run execute if score red number_in_team > min number_in_team run scoreboard players add team info 1
 
-execute if score team info < last_team info run playsound minecraft:entity.ender_dragon.hurt master @a
+execute if score team info < last_team info run playsound minecraft:entity.ender_dragon.hurt master @a 0 100 0 1 1 1
 
 execute if score white number_in_team matches 0 run execute if score white last_number_team > min team run tellraw @a [{"text":"[", "color": "red"}, {"text":"UHC", "color": "gold", "bold": "true"}, {"text":"]", "color": "red"}, {"text": " L'équipe ", "color": "red"}, {"text": "blanche", "color": "white", "bold": true}, {"text": " a perdu!", "color": "red"}]
 execute if score orange number_in_team matches 0 run execute if score orange last_number_team > min team run tellraw @a [{"text":"[", "color": "red"}, {"text":"UHC", "color": "gold", "bold": "true"}, {"text":"]", "color": "red"}, {"text": " L'équipe ", "color": "red"}, {"text": "orange", "color": "gold", "bold": true}, {"text": " a perdu!", "color": "red"}]
