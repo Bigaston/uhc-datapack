@@ -17,6 +17,11 @@
 - Scénario des équipes sans couleurs, avec des feux d'artifices pour signaler son équipe (plugin mumble obligatoire)
 - Ajouter un scénario pour remettre le pvp 1.8
 
+## Hors jeu
+- Mettre en place de la documentation dans un gitbook
+- Mettre en place des liens de téléchargements pour chaque pack
+- Modifier le readme pour donner plus d'informations
+
 # 1.5.0
 *(02/11/2018) 00H00*
 - Correction des bugs du Cut Clean
