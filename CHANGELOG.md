@@ -22,6 +22,12 @@
 - Correction des bugs du Cut Clean
 - Ajout du scénario Diamands Sanglants : chaque diamand miné donné un effet de Wither pendant 1 seconde (un demi coeur en moins)
 - Correction de l'affichage de la barre de boss
+## A faire avant publication
+- Finir de mettre chaque scénario dans un datapack différent
+- Mettre en place une commande `/function uhc-addon:list` pour lister les addons disponibles
+- Modification de la commande `/function uhc-addon:config` qui demande à chaque datapack d'afficher sa ligne de configuration et donne la commande pour l'activer/désactiver (activation du datapack entier)
+- Suprimez le scoreboard add-option
+- Mettre en place les loots table pour le scénario cut clean
 
 # 1.4.1
 *(01/11/2018) 16H00*
