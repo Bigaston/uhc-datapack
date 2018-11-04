@@ -59,6 +59,7 @@ scoreboard players set maxBar info 1200
 scoreboard players set player info 0
 scoreboard players set team info 0
 scoreboard players set last_team info 0
+scoreboard players set startGame info 0
 
 # Scoreboard des personnes dans la partie
 scoreboard objectives add player_in_game dummy
@@ -91,13 +92,12 @@ bossbar set time value 1200
 bossbar set time max 1200
 bossbar set time color yellow
 bossbar set time name [{"text": "Episode ", "color": "gold"}, {"score": {"name": "episode", "objective": "info"}, "color": "red", "bold": true}, {"text": " - ", "color": "gold"}, {"score": {"name": "minute", "objective": "info"}, "color": "red", "bold": true}, {"text": ":0", "color": "red", "bold": true}, {"score": {"name": "seconde", "objective": "info"}, "color": "red", "bold": true}]
-bossbar set time players @a
+
+difficulty peaceful
 
 # Ajout de l'UHC Armor Stand
 kill @e[name=UHC,type=minecraft:armor_stand]
 summon armor_stand 0 100.8 0 {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoGravity:1b,Small:1b,ArmorItems:[{},{},{},{id:"minecraft:sea_lantern",Count:1b}],HandItems:[{},{}],CustomName:"{\"text\":\"UHC\",\"color\":\"red\",\"bold\":\"true\"}",CustomNameVisible:1b,DisabledSlots:2035728}
-
-function uhc-addon:init
 
 # Affichage texte de fin
 tellraw @a [{"text":"[", "color": "red"}, {"text":"UHC", "color": "gold", "bold": "true"}, {"text":"]", "color": "red"}, {"text": " UHC initialisé avec succès!", "color": "gold"}]

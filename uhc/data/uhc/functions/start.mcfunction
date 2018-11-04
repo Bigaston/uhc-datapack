@@ -50,7 +50,3 @@ gamerule doWeatherCycle true
 
 xp set @a 0 levels
 xp set @a 0 
-
-function uhc-addon:start
-
-scoreboard players set startGame info 0
