@@ -15,9 +15,20 @@
 - Scénario Taupe Gun et Switch the Patrick
 - Modification des messages de morts pour annoncer la manière de la mort
 - Scénario des équipes sans couleurs, avec des feux d'artifices pour signaler son équipe (plugin mumble obligatoire)
-- Scénario Diamant Sanglant : chaque diamand miné = 1/2 coeur en moins
 - Ajouter un scénario pour remettre le pvp 1.8
-- Bug CutClean (give a la mauvaise personne)
+
+## Hors jeu
+- Mettre en place de la documentation dans un gitbook
+- Mettre en place des liens de téléchargements pour chaque pack
+- Modifier le readme pour donner plus d'informations
+
+# 1.5.0
+*(04/11/2018) 21H00*
+- Correction des bugs du Cut Clean
+- Ajout du scénario Diamands Sanglants : chaque diamand miné donné un effet de Wither pendant 1 seconde (un demi coeur en moins)
+- Correction de l'affichage de la barre de boss
+- Chaque scénario est maintenant un datapack séparé. Pour ajouter un scénario, il faut ajouter son dossier dans le dossier datapack de la map
+- Le scénario CutClean utilise maintenant des loot tables pour le drop des viandes cuites
 
 # 1.4.1
 *(01/11/2018) 16H00*
