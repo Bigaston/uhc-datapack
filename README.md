@@ -12,3 +12,6 @@ Executez la commande `/function uhc:config` et suivez les information du t'chat!
 
 # Lancer une partie
 Utilisez la commande `/function uhc:start`
+
+# Installer des scénarios
+Pour installer des scénarios, ajouter juste leur dossier dans le dossier datapack et utilisez `/reload`
