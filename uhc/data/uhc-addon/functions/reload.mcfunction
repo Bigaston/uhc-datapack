@@ -1,1 +1,0 @@
-tellraw @a [{"text":"[", "color": "red"}, {"text":"UHC Addon", "color": "gold", "bold": "true"}, {"text":"]", "color": "red"}, {"text": " UHC Addon Chargé! ", "color": "gold"}]
