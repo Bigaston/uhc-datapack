@@ -16,6 +16,7 @@
 - Modification des messages de morts pour annoncer la manière de la mort
 - Scénario des équipes sans couleurs, avec des feux d'artifices pour signaler son équipe (plugin mumble obligatoire)
 - Ajouter un scénario pour remettre le pvp 1.8
+- Scénario qui ajoute des crafts de bagues qu'il faut équiper dans sa hotbar pour avoir un effet (resistance, absorbtion...)
 
 ## Hors jeu
 - Mettre en place de la documentation dans un gitbook
