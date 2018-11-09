@@ -19,6 +19,8 @@
 - Scénario qui ajoute des crafts de bagues qu'il faut équiper dans sa hotbar pour avoir un effet (resistance, absorbtion...)
 - Modifier craft melon scitillant
 - Ajouter règles pas de pieges dans le nether
+- Option pour desactiver le nether
+- Desactiver potion niveau 2
 
 ## Hors jeu
 - Mettre en place de la documentation dans un gitbook
