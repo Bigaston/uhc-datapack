@@ -17,6 +17,8 @@
 - Scénario des équipes sans couleurs, avec des feux d'artifices pour signaler son équipe (plugin mumble obligatoire)
 - Ajouter un scénario pour remettre le pvp 1.8
 - Scénario qui ajoute des crafts de bagues qu'il faut équiper dans sa hotbar pour avoir un effet (resistance, absorbtion...)
+- Modifier craft melon scitillant
+- Ajouter règles pas de pieges dans le nether
 
 ## Hors jeu
 - Mettre en place de la documentation dans un gitbook
