@@ -1,0 +1,1 @@
+tellraw @a [{"text":">>>", "color": "gold", "bold": "true"}, {"text": " Scénario Leather est activé! Vous pouvez cuire de la Chaire Putrifée pour obtenir du cuir", "color": "gold", "bold":false}]
