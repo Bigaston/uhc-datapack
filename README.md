@@ -24,7 +24,7 @@ Les minerais et les viandes seront cuits automatiquement
 
 ## Diamands Sanglants
 A chaque fois que vous minez un diamand vous obtenez un effet de Wither de 1 seconde (moins 1/2 coeur)  
-\> [Télécharger](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Bigaston/uhc-datapack/tree/master/blood-diamond) <
+\> [Télécharger](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Bigaston/uhc-datapack/tree/master/bloody-diamond) <
 
 ## Cuir
 Un craft custom du cuir en faisant cuire de la chair putriffiée
