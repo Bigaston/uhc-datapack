@@ -27,5 +27,5 @@ A chaque fois que vous minez un diamand vous obtenez un effet de Wither de 1 sec
 \> [Télécharger](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Bigaston/uhc-datapack/tree/master/bloody-diamond) <
 
 ## Cuir
-Un craft custom du cuir en faisant cuire de la chair putriffiée
+Un craft custom du cuir en faisant cuire de la chair putriffiée  
 \> [Télécharger](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Bigaston/uhc-datapack/tree/master/leather) <
