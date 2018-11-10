@@ -29,3 +29,7 @@ A chaque fois que vous minez un diamand vous obtenez un effet de Wither de 1 sec
 ## Cuir
 Un craft custom du cuir en faisant cuire de la chair putriffiée  
 \> [Télécharger](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Bigaston/uhc-datapack/tree/master/leather) <
+
+## Ring
+Ajoute des anneaux qui donnent des effets de potions. Allez voir le [Wiki](https://github.com/Bigaston/uhc-datapack/wiki/Anneaux-Magiques) pour plus d'information  
+\> [Télécharger](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Bigaston/uhc-datapack/tree/master/ring) <
