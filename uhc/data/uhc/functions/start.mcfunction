@@ -36,6 +36,8 @@ scoreboard objectives remove last_team
 scoreboard objectives remove trigger_spec
 scoreboard objectives remove team_etat
 
+bossbar set minecraft:time players @a
+
 difficulty hard
 
 execute as @a[gamemode=survival] run scoreboard players add player info 1

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "ring:speed_ring"
+      }
+    }
+  },
+  "rewards": {
+    "function": "ring:speed/speed"
+  }
+}
