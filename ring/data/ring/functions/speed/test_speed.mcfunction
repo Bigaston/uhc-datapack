@@ -1,9 +1,1 @@
-effect give @a[nbt={Inventory:[{Slot:0b, tag:{Ring:"Speed"}}]}] minecraft:speed 1 0 true
-effect give @a[nbt={Inventory:[{Slot:1b, tag:{Ring:"Speed"}}]}] minecraft:speed 1 0 true
-effect give @a[nbt={Inventory:[{Slot:2b, tag:{Ring:"Speed"}}]}] minecraft:speed 1 0 true
-effect give @a[nbt={Inventory:[{Slot:3b, tag:{Ring:"Speed"}}]}] minecraft:speed 1 0 true
-effect give @a[nbt={Inventory:[{Slot:4b, tag:{Ring:"Speed"}}]}] minecraft:speed 1 0 true
-effect give @a[nbt={Inventory:[{Slot:5b, tag:{Ring:"Speed"}}]}] minecraft:speed 1 0 true
-effect give @a[nbt={Inventory:[{Slot:6b, tag:{Ring:"Speed"}}]}] minecraft:speed 1 0 true
-effect give @a[nbt={Inventory:[{Slot:7b, tag:{Ring:"Speed"}}]}] minecraft:speed 1 0 true
-effect give @a[nbt={Inventory:[{Slot:8b, tag:{Ring:"Speed"}}]}] minecraft:speed 1 0 true
+effect give @a[nbt={Inventory:[{Slot:-106b, tag:{Ring:"Speed"}}]}] minecraft:speed 1 0 true
