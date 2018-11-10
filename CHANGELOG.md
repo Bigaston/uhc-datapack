@@ -27,6 +27,10 @@
 - Mettre en place des liens de téléchargements pour chaque pack
 - Modifier le readme pour donner plus d'informations
 
+# 1.5.1
+*(10/11/2018) 19H45*
+- Correction du bug de la bossbar
+
 # 1.5.0
 *(04/11/2018) 21H00*
 - Correction des bugs du Cut Clean
