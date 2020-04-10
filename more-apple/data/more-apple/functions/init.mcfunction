@@ -1,0 +1,1 @@
+tellraw @a [{"text":">>>", "color": "gold", "bold": "true"}, {"text": " Scénario More Apple est activé! Vous droperez plus de pommes sur toutes les feuilles, et vous aurez une petite chance d'avoir des pommes en or.", "color": "gold", "bold":false}]
