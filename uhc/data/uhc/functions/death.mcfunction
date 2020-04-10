@@ -6,7 +6,3 @@ execute as @a[scores={Mort=1}] run function uhc:team/update_team_number
 gamemode spectator @a[scores={Mort=1}]
 team join Spectateur @a[scores={Mort=1}]
 scoreboard players remove @a[scores={Mort=1}] Mort 1
-
-give @a[scores={killDetect=1}] minecraft:golden_apple 1
-#execute as @a[scores={killDetect=1}] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:golden_apple",Count:1b}}
-scoreboard players remove @a[scores={killDetect=1}] killDetect 1

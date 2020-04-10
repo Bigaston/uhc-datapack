@@ -74,9 +74,6 @@ scoreboard players set diminutionMap option 7
 # Scoreboard kill
 scoreboard objectives add Kill playerKillCount
 
-# Scoreboard Kill Detect
-scoreboard objectives add killDetect playerKillCount
-
 # Preparation des teams
 function uhc:team/init
 
